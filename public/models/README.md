@@ -80,7 +80,7 @@ nears the station.
 The second model outside the fleet set is `tiangong.glb`, China's Tiangong
 station in its T configuration (Tianhe, Wentian, Mengtian, a Shenzhou forward
 and nadir, a Tianzhou aft), drawn by the satellites layer up close. It is an
-original model made for God's Eye View and, unlike the ISS model, it is the
+original model made for JS View and, unlike the ISS model, it is the
 project's own work under the repository's [MIT license](../../LICENSE): no
 third-party geometry, texture or image is in it. It loads only when the camera
 nears the station.

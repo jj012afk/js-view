@@ -104,7 +104,7 @@ onBeforeUnmount(() => observer?.disconnect());
             <use href="#gevLogo" />
           </svg>
         </UiButton>
-        <span class="h-word" translate="no">GOD'S EYE <b>VIEW</b></span>
+        <span class="h-word" translate="no">JS <b>VIEW</b></span>
       </div>
       <nav ref="trail" class="h-tag s-trail" :aria-label="t('Breadcrumb')">
         <template v-if="screen === 'explore'">

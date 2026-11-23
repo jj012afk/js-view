@@ -94,7 +94,7 @@ import { withPlacePacks } from './placePacksLoading.js';
 import { preloadOwnerFlags } from './ownerFlag.js';
 
 /**
- * Central UI orchestrator for the God's Eye View application.
+ * Central UI orchestrator for the JS View application.
  *
  * Responsibilities:
  * - Visual controls and presets backed by the VisualEffects controller.

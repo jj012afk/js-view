@@ -334,7 +334,7 @@ export function cameraSamplesToUsda(samples) {
     '#usda 1.0',
     '(',
     '    defaultPrim = "GEV"',
-    `    doc = ${usdString("God's Eye View Director cameras: ENU meters around a WGS84 ellipsoid origin; time codes are frame numbers.")}`,
+    `    doc = ${usdString('JS View Director cameras: ENU meters around a WGS84 ellipsoid origin; time codes are frame numbers.')}`,
     `    endTimeCode = ${timeline.frameEnd}`,
     `    framesPerSecond = ${rate}`,
     '    metersPerUnit = 1',

@@ -175,7 +175,7 @@ export const DATA_CREDITS = [
   {
     key: 'tiangong-model',
     html:
-      "Tiangong model: made for God's Eye View; dimensions from " +
+      'Tiangong model: made for JS View; dimensions from ' +
       '<a href="https://doi.org/10.34133/space.0035" target="_blank" rel="noopener">Wang, Zhang &amp; Wang 2023</a> ' +
       '(CC BY 4.0) and eoPortal',
   },

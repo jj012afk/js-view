@@ -278,7 +278,9 @@ test('no unchanged Realtime tool definition drifts silently', () => {
     .digest('hex')
     .slice(0, 16);
   // Analyst additions and ISS wording correction are explicitly excluded above; all other tool definitions retain their pin.
-  assert.equal(digest, '25d1b902ecaa22fb', 'an unchanged Realtime tool definition drifted');
+  // Re-derived for the JS View rename (product name in fly_to_location,
+  // set_layer_visibility and set_visual_style descriptions).
+  assert.equal(digest, '09a7bb5862901b7d', 'an unchanged Realtime tool definition drifted');
 });
 
 test('Radio volume and mission speed share the Sharpen slider visual language', () => {

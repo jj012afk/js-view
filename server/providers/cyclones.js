@@ -291,7 +291,7 @@ export function cycloneProxy({
       redirect: 'error',
       headers: {
         Accept: 'application/geo+json,application/json',
-        'User-Agent': 'Gods Eye View (public NOAA weather context)',
+        'User-Agent': 'JS View (public NOAA weather context)',
       },
     });
     if (!response.ok) {
@@ -310,7 +310,7 @@ export function cycloneProxy({
     const response = await fetchImpl(url, {
       signal,
       redirect: 'error',
-      headers: { 'User-Agent': 'Gods Eye View (public JTWC warning context)' },
+      headers: { 'User-Agent': 'JS View (public JTWC warning context)' },
     });
     if (
       kind === 'bytes' &&
