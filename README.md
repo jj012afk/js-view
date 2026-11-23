@@ -1,28 +1,18 @@
 <div align="center">
 
-# 🌐 God's Eye View
+# 🌐 JS View
 
-**Official site: [godseyeview.ai](https://godseyeview.ai)** · [Download](https://godseyeview.ai/download/) · [Guide](https://godseyeview.ai/guide/) · [Releases](https://godseyeview.ai/releases/) · [Hosted version waitlist](https://godseyeview.ai/online/) · [Media](https://godseyeview.ai/press/)
+[![CI](https://github.com/jj012afk/js-view/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/jj012afk/js-view/actions/workflows/ci.yml) [![MIT License](https://img.shields.io/badge/license-MIT-4fe3ff?style=flat-square)](LICENSE)
 
-[![CI](https://github.com/bilawalsidhu/gods-eye-view/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/bilawalsidhu/gods-eye-view/actions/workflows/ci.yml) [![Reached #1 on GitHub Trending](https://img.shields.io/badge/%231_GitHub_Trending-thank_you!-F0A63C?style=flat-square&logo=github)](https://www.star-history.com/?type=date&repos=bilawalsidhu%2Fgods-eye-view) [![GitHub stars](https://img.shields.io/github/stars/bilawalsidhu/gods-eye-view?style=flat-square&color=4fe3ff)](https://github.com/bilawalsidhu/gods-eye-view/stargazers) [![MIT License](https://img.shields.io/badge/license-MIT-4fe3ff?style=flat-square)](LICENSE)
+### A live 3D globe of the planet's public signals, in your browser.
 
-### A spy-satellite simulator in your browser. Except the data is real.
+![JS View: a live 3D globe indexing the planet's public signals](docs/media/site/hero.webp)
 
-_The window through which we see our world._
+Click any satellite, plane, ship or public camera and you can track it. Switch to FLIR, night vision or CRT and the whole live planet re-renders through a different sensor. Free and open source.
 
-[![God's Eye View: a live 3D globe indexing the planet's public signals](docs/media/site/hero.webp)](https://godseyeview.ai)
+**[Run it from the terminal](#-quick-start)** · **[Contributing](CONTRIBUTING.md)**
 
-Click any satellite, plane, ship or public camera and you can track it. Turn on FLIR mode and suddenly you're wondering, holy crap, is this real? And it's free, and open source.
-
-**[One-click install with Pinokio](https://pinokio.co/apps/github-com-bilawalsidhu-gods-eye-view)** · **[Run it from the terminal](#-quick-start)** · **[Hosted version waitlist](https://godseyeview.ai/online/)**
-
-God’s Eye View™ is a trademark of Metaversity LLC, used under license by Halfpixel, Inc. [Official download page](https://godseyeview.ai/download/).
-
-🏆 **#1 on GitHub Trending**, daily and weekly · **[#8 Product of the Day](https://www.producthunt.com/products/god-s-eye-view?launch=god-s-eye-view)**, hunted by Chris Messina · _“pretty cool”_ — [Brendan Eich](https://x.com/BrendanEich/status/2094592096401490266), creator of JavaScript · Featured on **[Pinokio](https://pinokio.co/posts/01m1m4p9xxm3qw7dnnpj2wr93g)**
-
-▶️ **From the project behind the God's Eye View series** _(formerly WorldView)_ — [25M+ views on YouTube](https://youtube.com/playlist?list=PL6qSg2I-7_koPbDnSMo0QeeHX_RknA2uv&si=nBGYMoHWQw41v93Q)
-
-**As seen on** [Matt Wolfe](https://www.youtube.com/watch?v=S2VJU5DQqlU) · [Riley Brown](https://www.youtube.com/watch?v=NR_GMq2lDCE) · [Digg](https://digg.com/tech/r7whv988) · [The Escapist](https://www.escapistmagazine.com/news-gods-eye-view-spy-satellite-simulator-setup-focus-keyphrase-gods-eye-view/) · [UNILAD Tech](https://www.uniladtech.com/social-media/youtube/viewers-concerned-youtubers-safety-built-gods-eye-monitor-889810-20260309) · [Al Jazeera](https://www.aljazeera.com/video/the-stream/2026/3/8/how-do-you-track-a-war-in-real-time) · [NDTV](https://www.ndtv.com/video/strait-of-hormuz-news-hormuz-stranglehold-no-end-in-sight-1080351) · [Mojo Story](https://www.youtube.com/watch?v=UXkJjyFfrwc) · [all media](https://godseyeview.ai/press/)
+JS View is a fork of [God's Eye View](https://github.com/bilawalsidhu/gods-eye-view) by Bilawal Sidhu and contributors, released under the MIT License. It is not affiliated with or endorsed by the original project; "God's Eye View" is a trademark of Metaversity LLC.
 
 </div>
 
@@ -38,9 +28,9 @@ God’s Eye View™ is a trademark of Metaversity LLC, used under license by Hal
 
 ## 🌍 Why This Exists
 
-God's Eye View brings public signals into one explorable globe. Track the world live. Talk to it. Break it. Extend it.
+JS View brings public signals into one explorable globe. Track the world live. Talk to it. Break it. Extend it.
 
-Flight transponders, ship beacons, orbital elements, seismographs, and public cameras already tell us a lot about the world. God's Eye View puts them in the same place, so you can move between a global picture and an individual aircraft, ship, or street. It runs locally in your browser, with source code you can inspect and extend.
+Flight transponders, ship beacons, orbital elements, seismographs, and public cameras already tell us a lot about the world. JS View puts them in the same place, so you can move between a global picture and an individual aircraft, ship, or street. It runs locally in your browser, with source code you can inspect and extend.
 
 > Half the magic is that it looks like a forbidden cockpit. The other half is that every line of code is inspectable.
 
@@ -56,28 +46,28 @@ Start with the included data sources, then add your own. Each layer is a separat
 
 The world is already broadcasting. We fuse it together into a 3D globe for you and your agents.
 
-We've got a plurality of sensor systems watching the planet right now. Satellite imagery, flights, ships, weather, public cameras. Each captures a sliver of what's happening. God's Eye View pulls that treasure trove of public data into a single picture.
+We've got a plurality of sensor systems watching the planet right now. Satellite imagery, flights, ships, weather, public cameras. Each captures a sliver of what's happening. JS View pulls that treasure trove of public data into a single picture.
 
 <table>
 <tr>
-<td width="33%" valign="top"><img src="docs/media/site/voice.webp" alt="Ask the planet in God's Eye View" width="100%"><br><b>Ask the planet</b><br><sub>Use voice to ask the planet questions in natural language, and it annotates the 3D globe with the answer.</sub></td>
-<td width="33%" valign="top"><img src="docs/media/site/flights.webp" alt="Flights and vessels in God's Eye View" width="100%"><br><b>Flights and vessels</b><br><sub>Click on a satellite, plane, ship or public camera and you can track it.</sub></td>
-<td width="33%" valign="top"><img src="docs/media/site/satellites.webp" alt="Satellites in God's Eye View" width="100%"><br><b>Satellites</b><br><sub>Toggle on different kinds of satellites, everything from GPS to Starlink.</sub></td>
+<td width="33%" valign="top"><img src="docs/media/site/voice.webp" alt="Ask the planet in JS View" width="100%"><br><b>Ask the planet</b><br><sub>Use voice to ask the planet questions in natural language, and it annotates the 3D globe with the answer.</sub></td>
+<td width="33%" valign="top"><img src="docs/media/site/flights.webp" alt="Flights and vessels in JS View" width="100%"><br><b>Flights and vessels</b><br><sub>Click on a satellite, plane, ship or public camera and you can track it.</sub></td>
+<td width="33%" valign="top"><img src="docs/media/site/satellites.webp" alt="Satellites in JS View" width="100%"><br><b>Satellites</b><br><sub>Toggle on different kinds of satellites, everything from GPS to Starlink.</sub></td>
 </tr>
 <tr>
-<td width="33%" valign="top"><img src="docs/media/site/cameras.webp" alt="Public cameras in God's Eye View" width="100%"><br><b>Public cameras</b><br><sub>Some layers, like traffic and camera poses, are estimates, and the app says so.</sub></td>
-<td width="33%" valign="top"><img src="docs/media/site/cockpit.webp" alt="Cockpit in God's Eye View" width="100%"><br><b>Cockpit</b><br><sub>Visualize a flight from the third-person perspective and jump into a rendered cockpit view.</sub></td>
-<td width="33%" valign="top"><img src="docs/media/site/weather.webp" alt="World class weather in God's Eye View" width="100%"><br><b>World class weather</b><br><sub>Clouds, rain radar, lightning density and cyclone tracks with forecast cones. And since we say 4D, you can scrub the cloud imagery backwards in time.</sub></td>
+<td width="33%" valign="top"><img src="docs/media/site/cameras.webp" alt="Public cameras in JS View" width="100%"><br><b>Public cameras</b><br><sub>Some layers, like traffic and camera poses, are estimates, and the app says so.</sub></td>
+<td width="33%" valign="top"><img src="docs/media/site/cockpit.webp" alt="Cockpit in JS View" width="100%"><br><b>Cockpit</b><br><sub>Visualize a flight from the third-person perspective and jump into a rendered cockpit view.</sub></td>
+<td width="33%" valign="top"><img src="docs/media/site/weather.webp" alt="World class weather in JS View" width="100%"><br><b>World class weather</b><br><sub>Clouds, rain radar, lightning density and cyclone tracks with forecast cones. And since we say 4D, you can scrub the cloud imagery backwards in time.</sub></td>
 </tr>
 <tr>
-<td width="33%" valign="top"><img src="docs/media/site/imagery.webp" alt="Recent imagery in God's Eye View" width="100%"><br><b>Recent imagery</b><br><sub>Draw a bounding box around a fire and it'll retrieve the Sentinel-2 images, draped on the 3D terrain. All keyless, ladies and gentlemen.</sub></td>
-<td width="33%" valign="top"><img src="docs/media/site/transit.webp" alt="Transit in God's Eye View" width="100%"><br><b>Transit</b><br><sub>Click a bus in Boston and it starts leaving a trail. This might be the most overkill way to track your bus.</sub></td>
-<td width="33%" valign="top"><img src="docs/media/site/sdr.webp" alt="RF and SDR support in God's Eye View" width="100%"><br><b>RF and SDR support</b><br><sub>Now you can connect your own SDR and visualize everything you're detecting. The SDR nerds know all the other possibilities.</sub></td>
+<td width="33%" valign="top"><img src="docs/media/site/imagery.webp" alt="Recent imagery in JS View" width="100%"><br><b>Recent imagery</b><br><sub>Draw a bounding box around a fire and it'll retrieve the Sentinel-2 images, draped on the 3D terrain. All keyless, ladies and gentlemen.</sub></td>
+<td width="33%" valign="top"><img src="docs/media/site/transit.webp" alt="Transit in JS View" width="100%"><br><b>Transit</b><br><sub>Click a bus in Boston and it starts leaving a trail. This might be the most overkill way to track your bus.</sub></td>
+<td width="33%" valign="top"><img src="docs/media/site/sdr.webp" alt="RF and SDR support in JS View" width="100%"><br><b>RF and SDR support</b><br><sub>Now you can connect your own SDR and visualize everything you're detecting. The SDR nerds know all the other possibilities.</sub></td>
 </tr>
 <tr>
-<td width="33%" valign="top"><img src="docs/media/site/radio.webp" alt="World radio in God's Eye View" width="100%"><br><b>World radio</b><br><sub>Ask for radio near anywhere and the globe starts broadcasting. Drag the tuner across up to 750 stations.</sub></td>
-<td width="33%" valign="top"><img src="docs/media/site/mcp.webp" alt="MCP server in God's Eye View" width="100%"><br><b>MCP server</b><br><sub>We've built MCP access so your agents can query the same picture and add their findings to a shared canvas.</sub></td>
-<td width="33%" valign="top"><img src="docs/media/site/director.webp" alt="Director Mode in God's Eye View" width="100%"><br><b>Director Mode</b><br><sub>Draw outlines, sketch paths, drop your annotations on the map.</sub></td>
+<td width="33%" valign="top"><img src="docs/media/site/radio.webp" alt="World radio in JS View" width="100%"><br><b>World radio</b><br><sub>Ask for radio near anywhere and the globe starts broadcasting. Drag the tuner across up to 750 stations.</sub></td>
+<td width="33%" valign="top"><img src="docs/media/site/mcp.webp" alt="MCP server in JS View" width="100%"><br><b>MCP server</b><br><sub>We've built MCP access so your agents can query the same picture and add their findings to a shared canvas.</sub></td>
+<td width="33%" valign="top"><img src="docs/media/site/director.webp" alt="Director Mode in JS View" width="100%"><br><b>Director Mode</b><br><sub>Draw outlines, sketch paths, drop your annotations on the map.</sub></td>
 </tr>
 </table>
 
@@ -136,7 +126,7 @@ app's **POWER UP** panel; [Keys & Costs](#-api-keys) explains the options.
 ### Path 1 — One click, no terminal
 
 1. Install or update [Pinokio](https://desktop.pinokio.co/) to **8.2 or later**.
-2. Open [God's Eye View in Pinokio](https://pinokio.co/apps/github-com-bilawalsidhu-gods-eye-view).
+2. Open [God's Eye View in Pinokio](https://pinokio.co/apps/github-com-bilawalsidhu-gods-eye-view). Note: this one-click entry installs the original upstream project, not JS View; use Path 2 or Docker to run this fork.
 3. Click **Install**, then **Start**.
 
 Available on **Windows, macOS, and Linux**. The Pinokio maintainer reports
@@ -164,8 +154,8 @@ later on 26) includes the October 21, 2026 security fixes, among them
 CVE-2026-111497. The setup doctor warns about Node 25, which is end-of-life.
 
 ```bash
-git clone https://github.com/bilawalsidhu/gods-eye-view.git
-cd gods-eye-view
+git clone https://github.com/jj012afk/js-view.git
+cd js-view
 npm ci
 npm run doctor
 npm run dev
@@ -192,8 +182,8 @@ configured keys straight from the Keychain. It starts keyless too.
 No Node install needed; the container publishes the same dev server.
 
 ```bash
-git clone https://github.com/bilawalsidhu/gods-eye-view.git
-cd gods-eye-view
+git clone https://github.com/jj012afk/js-view.git
+cd js-view
 docker compose up
 ```
 
@@ -234,8 +224,8 @@ On a NAS, clone onto the share you want the data on and use the share owner's id
 
 ```bash
 cd /volume1/docker
-git clone https://github.com/bilawalsidhu/gods-eye-view.git
-cd gods-eye-view
+git clone https://github.com/jj012afk/js-view.git
+cd js-view
 env UID=1026 GID=100 docker compose up -d
 ```
 
@@ -428,7 +418,7 @@ camera input stops rotation.
 
 ---
 
-**💬 Or ask from Claude and Codex.** God's Eye View is also an MCP server: ask Claude Desktop, Codex or ChatGPT desktop to show a place, and the live globe opens right in the conversation. Setup takes a minute — see [docs/MCP_SETUP.md](docs/MCP_SETUP.md).
+**💬 Or ask from Claude and Codex.** JS View is also an MCP server: ask Claude Desktop, Codex or ChatGPT desktop to show a place, and the live globe opens right in the conversation. Setup takes a minute — see [docs/MCP_SETUP.md](docs/MCP_SETUP.md).
 
 ## 🛰️ What's on the Globe
 
@@ -687,7 +677,7 @@ a separately reviewed authentication proxy if remote access is required.
 
 ## 📋 Responsible & Open
 
-God's Eye View runs on **public data, clear sources, and local-first execution.** No secrets, no private datasets, no mystery scraping — anything involving a private key is brokered server-side. It has the visual grammar of a classified ops room, built entirely from open signals and inspectable code.
+JS View runs on **public data, clear sources, and local-first execution.** No secrets, no private datasets, no mystery scraping — anything involving a private key is brokered server-side. It has the visual grammar of a classified ops room, built entirely from open signals and inspectable code.
 
 **The line.** This project models **events, assets, infrastructure, and systems** — aircraft, vessels, satellites, fires, cameras, cities. It does not build features for named-person search, face recognition, or tracking individuals, and pull requests that cross that line won't be merged. People are not a query type here.
 
@@ -695,12 +685,12 @@ God's Eye View runs on **public data, clear sources, and local-first execution.*
 
 **Status:** An evolving open-source client for exploration and learning — a fast, hackable foundation, not a hardened production service. Released under the **[MIT License](LICENSE)**. Bundled and live datasets carry their own terms — see **[DATA_SOURCES.md](DATA_SOURCES.md)**. Security model: **[SECURITY.md](SECURITY.md)**. Want to contribute? **[CONTRIBUTING.md](CONTRIBUTING.md)**.
 
-**Maintainers:** [Bilawal Sidhu](https://github.com/bilawalsidhu) and [Sameh Khamis](https://github.com/samehkhamis) at [Halfpixel](https://halfpixel.ai).
+**Original maintainers (upstream God's Eye View):** [Bilawal Sidhu](https://github.com/bilawalsidhu) and [Sameh Khamis](https://github.com/samehkhamis) at [Halfpixel](https://halfpixel.ai).
 
 <sub>Media note: the clips on this page are the ones shown on godseyeview.ai. Some show Google Photorealistic 3D Tiles and live data layers, used promotionally with in-frame attribution; they aren't licensed for standalone reuse. See [media provenance and permissions](docs/media/README.md); full source terms in [DATA_SOURCES.md](DATA_SOURCES.md).</sub>
 
 > [!IMPORTANT]
-> God's Eye View is an exploratory visualization of public and third-party data.
+> JS View is an exploratory visualization of public and third-party data.
 > Data may be delayed, incomplete, modeled, inferred, or wrong. Do not use it
 > for flight or maritime navigation, emergency response, medical or health
 > decisions, investment decisions, or other safety-critical or operational
@@ -709,6 +699,8 @@ God's Eye View runs on **public data, clear sources, and local-first execution.*
 ---
 
 ## 🧭 What's Next
+
+_The note below is from the original God's Eye View project and its author, kept for context._
 
 First — thank you. To everyone who watched the God-view demos and went off to build their own, and to everyone who kept asking for the code: I'm grateful. And when I polled whether this should go open source, you weren't subtle about it:
 
@@ -724,8 +716,8 @@ One heads-up from the inside: build in this space for a week and you learn that 
 
 <div align="center">
 
-🌐 [godseyeview.ai](https://godseyeview.ai), the official site · ▶️ [Watch the God's Eye View series](https://youtube.com/playlist?list=PL6qSg2I-7_koPbDnSMo0QeeHX_RknA2uv&si=nBGYMoHWQw41v93Q) · 📬 [Map the World](https://maptheworld.ai/) — the newsletter behind the project
+🌐 Upstream: [godseyeview.ai](https://godseyeview.ai), the original God's Eye View site · ▶️ [Watch the God's Eye View series](https://youtube.com/playlist?list=PL6qSg2I-7_koPbDnSMo0QeeHX_RknA2uv&si=nBGYMoHWQw41v93Q) · 📬 [Map the World](https://maptheworld.ai/) — the newsletter behind the project
 
-**🌐 God's Eye View. No place left behind.**
+**🌐 JS View. No place left behind.**
 
 </div>

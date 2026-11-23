@@ -20,7 +20,7 @@ The following animated images in `site/` are the clips shown on [godseyeview.ai]
 
 Copyright © Bilawal Sidhu and Halfpixel, Inc. These files are not covered by the project's MIT License. Permission is limited to their inclusion and redistribution with this repository and its project documentation. No permission is granted for standalone reuse or modification. Commercial reuse outside this repository requires separate permission. No share-alike license applies.
 
-The clips are promotional captures and renders of God's Eye View. Some include Google Photorealistic 3D Tiles and public or third-party data layers with in-frame attribution. The permission above covers the clips; it does not replace the terms of Google Maps Platform or any displayed data provider. Keep the visible attribution intact.
+The clips are promotional captures and renders of JS View. Some include Google Photorealistic 3D Tiles and public or third-party data layers with in-frame attribution. The permission above covers the clips; it does not replace the terms of Google Maps Platform or any displayed data provider. Keep the visible attribution intact.
 
 The launch-era capture GIFs that this page listed before were removed from the README and from the repository in November 2026. They remain in the Git history under the terms stated for them at the time.
 

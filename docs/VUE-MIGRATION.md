@@ -281,7 +281,7 @@ from what the photo viewer presents rather than built in script. Its ‹ and
 › are ghost `UiButton`s, not pressed toggles, whose glyphs are text
 characters; the viewer builds no element, and the street-level layer it
 belongs to needs no Vue (`src/ui/kit/streetLevelPhotoControls.test.mjs`
-pins it). The notice the God's Eye View panel page shows when it loses its
+pins it). The notice the JS View panel page shows when it loses its
 3D graphics (`#status`, in `src/app/globePanelRuntime.js`) stays built in
 script: that script is sent to the host as source text and runs in the
 host's panel page before the app loads, so it can import nothing.

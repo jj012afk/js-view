@@ -1,6 +1,6 @@
 # Tools and the MCP server
 
-Tools answer questions from God's Eye View data for language-model clients.
+Tools answer questions from JS View data for language-model clients.
 They are defined once and exposed through adapters: the Model Context Protocol
 (MCP) and function calling, which voice uses.
 
@@ -126,7 +126,7 @@ turned camera keeps it). `resolveViewArguments` turns them into a view. The
 app's own links (the address bar, Copy Link, `/share/<code>`) do not carry
 `sl`; see `docs/SHARE-LINK-FORMAT.md`.
 
-### The God's Eye View panel
+### The JS View panel
 
 `show_in_gods_eye_view` names an MCP Apps view (`io.modelcontextprotocol/ui`):
 `_meta.ui.resourceUri` is `ui://gods-eye-view/globe`, a `text/html;profile=mcp-app`
@@ -138,7 +138,7 @@ the conversation. The panel completes the MCP Apps handshake
 `ui/notifications/size-changed`), and for each
 `ui/notifications/tool-result` carrying a view it loads the app in inline
 embed mode the first time and posts later views to that same app, so the
-globe changes without reloading. Its "Open in God's Eye View" button asks
+globe changes without reloading. Its "Open in JS View" button asks
 the host to open the link (`ui/open-link`).
 
 Hosts serve panels from their own sites and may refuse other addresses;
@@ -317,5 +317,5 @@ and the development server's internal routes. See SECURITY.md.
 | `situation_brief` | `weather` | Weather, earthquakes, fires, aircraft, ships and cyclones for an area, by section |
 | `military_awareness` | `military` | Military and other aircraft, ships and military installations within 250 km of a point, by section |
 | `get_hud_caption` | `weather`, `summary` | The app's heads-up display caption for an area |
-| `show_in_gods_eye_view` | `app` | A view in God's Eye View: the live panel in clients with MCP Apps, and a link everywhere; takes another answer's view or an area or camera, layers, style, map, marks, something to follow, or street-level photos (Street View or Mapillary) at a place |
-| `panel_request` | `app` | Panel only: loads a path from the app's server for the God's Eye View panel |
+| `show_in_gods_eye_view` | `app` | A view in JS View: the live panel in clients with MCP Apps, and a link everywhere; takes another answer's view or an area or camera, layers, style, map, marks, something to follow, or street-level photos (Street View or Mapillary) at a place |
+| `panel_request` | `app` | Panel only: loads a path from the app's server for the JS View panel |

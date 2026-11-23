@@ -61,10 +61,7 @@ export function keepPanelRendering(
       // Report the error in full: workers report plain objects, which
       // would print as [object Object].
       failed = true;
-      console.error(
-        "[God's Eye View panel] render error:",
-        describeError(error),
-      );
+      console.error('[JS View panel] render error:', describeError(error));
     }
   }, PANEL_FRAME_MS);
   return () => {

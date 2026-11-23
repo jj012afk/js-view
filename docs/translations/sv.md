@@ -2,7 +2,7 @@
 
 Catalog: `src/i18n/locales/sv.json`. General rules: [TRANSLATORS.md](../TRANSLATORS.md).
 
-Translation source: [God's Eye View Sverige](https://github.com/Kajjan7610/Gods-view-sweden) by Kaj Obst, November 2026.
+Translation source: [JS View Sverige](https://github.com/Kajjan7610/Gods-view-sweden) by Kaj Obst, November 2026.
 
 ## Style
 

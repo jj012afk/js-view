@@ -1,4 +1,4 @@
-/** Links that open God's Eye View at a view. */
+/** Links that open JS View at a view. */
 
 import {
   VIEW_PROPERTIES,
@@ -142,10 +142,10 @@ function appBase(services) {
 
 export const showInGodsEyeView = defineTool({
   name: 'show_in_gods_eye_view',
-  title: "Show in God's Eye View",
+  title: 'Show in JS View',
   description:
-    "Shows a view in God's Eye View: in clients that display apps, the live " +
-    "God's Eye View globe in the conversation; everywhere, a link that opens " +
+    'Shows a view in JS View: in clients that display apps, the live ' +
+    'JS View globe in the conversation; everywhere, a link that opens ' +
     'it. Pass the view another answer returned, or describe one: an area ' +
     'framed from above or a camera position, with chosen data layers, visual ' +
     'style and map, optionally following an aircraft (or riding in its ' +
@@ -168,7 +168,7 @@ export const showInGodsEyeView = defineTool({
     });
     const url = viewUrl(base, view);
     return {
-      summary: `Open ${label} in God's Eye View: ${url}`,
+      summary: `Open ${label} in JS View: ${url}`,
       // A panel opens a billed photo only for a result it receives fresh;
       // hosts hand a panel its result again whenever they mount it.
       data: {
